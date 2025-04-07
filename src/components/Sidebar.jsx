@@ -193,10 +193,10 @@ const Sidebar = ({ isSideMenuOpen, toggleSideMenu }) => {
       icon: <RiBloggerLine />,
       permissionSlug: 'user-management',
       children: [
-        { title: 'Banner', slug: 'list-user', url: '/dashboard/home/banner' },
+        // { title: 'Banner', slug: 'list-user', url: '/dashboard/home/banner' },
         { title: 'SEO', slug: 'list-user', url: '/dashboard/home/seo' },
         {
-          title: 'Contents',
+          title: 'Blogs',
           slug: 'list-user',
           url: '/dashboard/home/wedding',
         },
