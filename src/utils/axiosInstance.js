@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const axiosInstance = axios.create({
   // baseURL: 'http://127.0.0.1:5000/api', // Your API base URL
-  baseURL: 'https://www.api.novasafety.org/api', // Your API base URL
+  baseURL: 'https://pilot.pritom.me/api/v1', // Your API base URL
   headers: {
     'Content-Type': 'application/json',
     Accept: 'application/json',
