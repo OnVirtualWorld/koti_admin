@@ -40,7 +40,7 @@ export const { loginStart, loginSuccess, loginFailure, logout } =
 export const loginUser = (credentials) => async (dispatch) => {
   dispatch(loginStart());
   try {
-    const response = await axiosInstance.post('/auth/admin-login', credentials); // Adjust endpoint as needed
+    const response = await axiosInstance.post('/admin-login', credentials); // Adjust endpoint as needed
     const { access_token, userInfo } = response.data.data;
 
     // Save token to localStorage

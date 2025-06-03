@@ -77,7 +77,7 @@ function UpdateProfile() {
 
   const onUpdatePassword = (data) => {
     axiosInstance
-      .post('/auth/change-password', data, {
+      .post('/change-password', data, {
         headers: {
           'Content-Type': 'application/json',
         },
